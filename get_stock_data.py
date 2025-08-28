@@ -3,7 +3,8 @@ import pandas as pd
 import os
 
 
-ticker_symbols = ["AAPL", "GOOGL", "MSFT"] 
+
+ticker_symbols = ["AAPL", "GOOGL", "MSFT","TSLA"] 
 output_dir = 'F:\\finance_projects'
 
 
