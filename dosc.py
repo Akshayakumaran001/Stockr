@@ -251,10 +251,10 @@ if ticker_symbols:
             selected_data = filtered_data[filtered_data['Ticker'] == selected_ticker].copy()
             
             tab1, tab2, tab3, tab4 = st.tabs([
-                "📈 Price Charts & KPIs", 
-                "📊 Key Statistics", 
-                "📄 Financial Statements",
-                "📋 Actions & Ratings"
+                " Price Charts & KPIs", 
+                " Key Statistics", 
+                " Financial Statements",
+                " Actions & Ratings"
             ])
             
             with tab1:
